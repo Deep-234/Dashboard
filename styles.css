@@ -1,0 +1,277 @@
+.html{
+    box-sizing: border-box;
+}
+.left{
+    display: inline-block;
+    border: 2px, solid, red;
+    position: absolute ;
+    left: 250px;
+    top: 20px;
+}
+.mid{
+    display: block;
+    border: 2px,solid, greenyellow;
+    margin: 10px 600px;
+    width: 33%;
+}
+.right{
+    display: inline-block;
+    border: 2px, solid, yellow;
+    position: absolute ;
+    right: 34px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+}
+.navbar li a{
+ color:black;
+ text-decoration: none;
+ padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a:active{
+    color:grey;
+ text-decoration: underline;
+}
+.left img{
+    width: 60px;
+}
+.left div{
+    color: black;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: wheat;
+    padding: 4px 14px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+     font-size: 10px;
+}
+.btn:hover, .btn1:hover{
+    background-color: teal;
+}
+
+.heading{
+    margin: 3px auto;
+    text-align: center;
+}
+.sideb {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 100%;
+    top: 10px;
+    
+    
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sideb a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sideb a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .row article{
+    width: 26%;
+}
+[class*='col-'] {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    min-height: 1px;
+}
+  
+  /* Links on mouse-over */
+  .sideb a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  .main{
+      position: absolute;
+      left: 300px;
+  }
+ /* for 1sr card*/
+ .fakeimg1{
+     background-color: gainsboro;
+     border-radius: 10px;
+     margin: 3px 3px;
+ }
+ .fakeimg2{
+  background-color: gainsboro;
+  border-radius: 10px;
+  margin: 3px 3px;
+}
+.fakeimg3{
+  background-color: gainsboro;
+  border-radius: 10px;
+  margin: 3px 3px;
+}
+.tea{
+  background-color: lavenderblush;
+  display: inline-block;
+  border: 2px, solid, red;
+  position: absolute ;
+  left: 600px;
+  top: 100px;
+  right: 0px;
+  bottom: 0px;
+  height: 400px;
+  width: 280px;
+}
+.hp1{
+  
+  border-radius: 20pt;
+  background-color: lightgrey;
+}
+.hp2{
+  
+  border-radius: 20pt;
+  background-color: paleturquoise;
+}
+.hp3{
+  
+  border-radius: 20pt;
+  background-color: oldlace;
+}
+.hp4{
+  
+  border-radius: 20pt;
+  background-color: wheat;
+}
+/*card and things*/
+.carousel{
+background-color: whitesmoke;
+}
+.sr2{
+  background-color: thistle;
+  height: 200px;
+}
+.extr{
+  background-color: rgb(238, 231, 231);
+  display: inline-block;
+  border: 2px, solid, red;
+  position: absolute ;
+  left: 600px;
+  top: 600px;
+  right: 0px;
+  bottom: 0px;
+  height: 250px;
+  width: 280px;
+}
+form input{
+  margin: 6px 6px;
+}
+.tea img{
+  height: 150px;
+  width: 150px;
+}
+.card{
+  position: relative;
+  left:20pxpx
+}
+
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 768px) {
+    .sideb {
+      width: 100%;
+      height: auto;
+      position: relative;
+      
+    }
+    .sideb a {float: left;}
+    div.content {margin-left: 0;}
+  .nav{
+    left:10px
+  }
+  .main{
+     left: 10px;
+  }
+  .extr{
+    background-color: rgb(238, 231, 231);
+    display: inline-block;
+    border: 2px, solid, red;
+    position: absolute ;
+    left: 300px;
+  }
+  .tea{
+    background-color: lavenderblush;
+    display: inline-block;
+    border: 2px, solid, red;
+    position: absolute ;
+    left: 300px;
+   
+  }
+  .sr2{
+    display: inline-block;
+    
+    position: absolute ;
+    left: 300px;
+    top: 900px;
+   
+    height: 250px;
+    width: 280px;
+  }
+  .left{
+    display: inline-block;
+    border: 2px, solid, red;
+    position: absolute ;
+    left: 20px;
+    top: 20px;
+}
+.mid{
+    display: block;
+    border: 2px,solid, greenyellow;
+    margin: 10px 600px;
+    width: 33%;
+}
+.right{
+    display: inline-block;
+    border: 2px, solid, yellow;
+    position: absolute ;
+    right: 34px;
+    top: 20px;
+    
+}
+  }
+
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 480px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+   
+  }
+ 
+  /* Mobile Landscape Screen Sizes */
+  
+ /* Desktop screen Sizes */
+
+   
+   
+   
